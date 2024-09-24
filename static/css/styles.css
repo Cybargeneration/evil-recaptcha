@@ -1,0 +1,119 @@
+/* General page reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ebee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header section with Facebook logo */
+.header {
+    background-color: #4267b2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header .logo img {
+    width: 200px;
+}
+
+/* Main login container */
+.main-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+/* Login box styling */
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #165ecb;
+}
+
+.create-account {
+    background-color: #42b72a;
+    margin-top: 10px;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+/* Forgotten account link */
+.forgotten-account {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.forgotten-account a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgotten-account a:hover {
+    text-decoration: underline;
+}
+
+/* Footer section */
+.footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.footer p a {
+    color: #4267b2;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    text-decoration: underline;
+}
+
